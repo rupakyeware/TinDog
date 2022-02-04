@@ -1,4 +1,4 @@
-body{
+body {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -18,7 +18,8 @@ body{
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat-Light", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: light;
 }
 
 h1 {
@@ -37,5 +38,30 @@ h1 {
 }
 
 .download-btn {
-  margin: 5% 3% 5% 0%
+  margin: 5% 3% 5% 0%;
+}
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+
+}
+
+.feature-desc {
+  color: #8f8f8f;
+}
+
+.feature-icon {
+  color: #ef8172;
 }

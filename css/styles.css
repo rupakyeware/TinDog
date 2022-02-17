@@ -47,15 +47,10 @@ h1 {
 
 }
 
-.feature-box {
-  padding: 5%;
-}
-
 .feature-title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-
+  font-weight: 700;
 }
 
 .feature-desc {
@@ -64,4 +59,13 @@ h1 {
 
 .feature-icon {
   color: #ef8172;
+  padding: 4%;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 10%;
 }
